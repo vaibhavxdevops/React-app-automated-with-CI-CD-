@@ -12,7 +12,7 @@ pipeline {
         stage('Clone Code') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/vaibhav1-hack/React_app_automated-with-jenkins.git'
+                    url: 'https://github.com/vaibhavxdevops/React-app-automated-with-CI-CD-.git'
             }
         }
 

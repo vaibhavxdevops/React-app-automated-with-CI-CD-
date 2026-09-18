@@ -12,7 +12,7 @@ export default function Home() {
                     </div>
 
                     <h1 className="h1">
-                        Hi this is  vaibhav <span className="muted">best skills</span> — not chaos.
+                        Hi this is  skillindia <span className="muted">best skills</span> — not chaos.
                     </h1>
 
                     <p className="lead">

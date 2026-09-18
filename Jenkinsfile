@@ -18,7 +18,7 @@ pipeline {
 
         stage('Build Docker Image') {
             steps {
-                sh 'docker build -t ${DOCKER_HUB_REPO}:latest .'
+                sh 'docker build --no-cache -t ${DOCKER_HUB_REPO}:latest .'
             }
         }
 

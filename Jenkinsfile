@@ -4,7 +4,7 @@ pipeline {
 
     environment {
         DOCKER_HUB_REPO = "vaibhavswarnkar2006/react_app"
-        EC2_IP = "13.60.197.148"
+        EC2_IP = "13.232.245.187"
         EC2_USER = "ec2-user"
     }
 

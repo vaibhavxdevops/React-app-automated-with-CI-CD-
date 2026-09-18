@@ -39,7 +39,7 @@ pipeline {
     steps {
         sh '''
             ssh -o StrictHostKeyChecking=no \
-            -i /home/ec2-user/fourth.pem \
+            -i /var/lib/jenkins/fourth.pem \
             ${EC2_USER}@${EC2_IP} "
             docker pull ${DOCKER_HUB_REPO}:latest &&
             docker stop react-app || true &&
